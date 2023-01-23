@@ -1,0 +1,22 @@
+npm init -Y
+npm install fastify
+npm install typescript -D
+npx tsc --init
+em tsconfig substituir target es2016 pra es2020
+npm i tsx -D 
+
+tsx watch src/server.ts // adicionar aos scripts
+
+
+usando fastify no lugar do express
+orm prisma
+npm i -D prisma
+npm i @prisma/client
+npx prisma init --datasource-provider SQLite
+criar models
+npx prisma migrate dev
+npx prisma studio
+npm i @fastify/cors
+npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+seed
+zod
